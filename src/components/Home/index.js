@@ -20,7 +20,7 @@ class Home extends Component {
     this.setState({status: 'INPROGRESS'})
     const {username} = this.state
     const response = await fetch(
-      `https://apis2.ccbp.in/gpv/profile-details/${username}?api_key=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`,
+      `https://apis2.ccbp.in/gpv/profile-details/${username}?api_key=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`,
     )
     if (response.ok) {
       const data = await response.json()
