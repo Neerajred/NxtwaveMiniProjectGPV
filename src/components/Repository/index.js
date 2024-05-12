@@ -21,7 +21,7 @@ class Repository extends Component {
     const getUserRepoData = async () => {
       const options = {method: 'GET'}
       const response = await fetch(
-        `https://apis2.ccbp.in/gpv/repos/${username}?api_key=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`,
+        `https://apis2.ccbp.in/gpv/repos/${username}?api_key=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`,
         options,
       )
       this.setState({statusState: response.ok})
