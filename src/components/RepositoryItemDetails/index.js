@@ -19,7 +19,7 @@ class RepositoryItemDetails extends Component {
     const options = {method: 'GET'}
 
     const response = await fetch(
-      `https://apis2.ccbp.in/gpv/specific-repo/${user}/${reponame}?api_key=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`,
+      `https://apis2.ccbp.in/gpv/specific-repo/${user}/${reponame}?api_key=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`,
       options,
     )
     if (response.ok) {
