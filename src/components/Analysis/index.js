@@ -21,7 +21,7 @@ class Analysis extends Component {
     const getAnalysisData = async () => {
       const options = {method: 'GET'}
       const response = await fetch(
-        `https://apis2.ccbp.in/gpv/profile-summary/${user}?api_key=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`,
+        `https://apis2.ccbp.in/gpv/profile-summary/${user}?api_key=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`,
         options,
       )
       if (response.ok) {
